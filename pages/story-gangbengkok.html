@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosqque: Sejarah Masjid Lama Gang Bengkok</title>
+    <!-- tailwind.css -->
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+    theme: {
+    extend: {
+      fontFamily: {
+        "popins-bold"       : "popins-bold",
+        "popins-thin"       : "popins-thin",
+        "plus-jakarta-sans" : "plus-jakarta",
+      },
+      colors: {
+        "ungu"        : "#5D50C6",
+        "putih"       : "#FFFFFF",
+        "putih-filter": "#EEEEEE",
+        "putih-abu"   : "#F4F4F4",
+        "orange"      : "#FF5722",
+        "pink"        : "#F85E9F",
+        "hitam"       : "#191825",
+        "hitam-ungu"  : "#150050",
+        "background"  : "linear-gradient(145deg, #cacaca, #f0f0f0)",
+      },
+      boxShadow: {
+        "custom"      : "0 2px 4px rgba(0, 0, 0, 0.1)",
+        "card"        : "0 4px 8px rgba(0, 0, 0, 0.1)",
+        "custom-two"  : "5px 5px 10px #d5d5d5,-5px -5px 10px #ebebeb",
+                },
+            },
+       },
+    plugins: [],
+    };
+    </script>
+
+    <style type="text/tailwindcss">
+    @layer utilities {
+    @font-face {
+        font-family: "popins";
+        src: url("/public/font/Poppins/Poppins-Medium.ttf");
+    }
+    @font-face {
+        font-family: "popins-bold";
+        src: url("/public/font/Poppins/Poppins-Black.ttf");
+    }
+    @font-face {
+        font-family: "popins-thin";
+        src: url("/public/font/Poppins/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "plus-jakarta";
+        src: url("/public/font/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
+    }
+    html {
+        font-family: "popins";
+        color: #191825;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+    @keyframes goyang {
+        0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(0);
+            }
+        }
+    .hiddenn{
+        display: none;
+    }
+
+    }
+    </style>
+</head>
+<body>
+    
+    <section class="lg:px-64 px-10 py-7">
+        <div class="bg-hitam rounded-lg">
+            <div class="text-1">
+                <div class="px-10 py-6">
+                    <h1 class="text-3xl text-putih"><i class="fa-solid fa-book-open mr-2"></i>Sejarah Masjid Lama Gang Bengkok</h1>
+                    <p class="text-putih pt-4">Masjid Lama Gang Bengkok diperkirakan didirikan pada tahun 1874. Bangunan masjid tersebut berdiri diatas tanah wakaf dari Haji Muhammad Ali, 
+                        atau lebih dikenal dengan nama Datuk Kesawan. Ketika proses pembangunannya, Tjong A Fie, yaitu seorang saudagar Tiongkok yang hijrah ke kota Medan pada awal abad ke 19. 
+                        Tjong A Fie sendiri menanggung seluruh pembangunan masjid tersebut.
+                    </p>
+                    <p class="text-putih pt-3">Sebelumnya masjid Al Osmani merupakan masjid tertua yang berada di Kota Medan didirikan pada tahun 1854.
+                        Kemudian 20 tahun setelahnya, dibangunlah masjid Gang Bengkok yang juga memiliki sebuah sejarah antara orang melayu dengan orang Tionghoa.
+                    </p>
+                    <p class="text-putih pt-3">
+                        Tepatnya masjid Lama Gang Bengkok didirikan pada tahun 1874. Memiliki nama yang aneh karena pada awal pembangunannya berada di sebuah gang sempit. Kemudian terdapat sebuah belokan atau tikungan pas di depan masjid tersebut. Ditambah dengan tidak pernah adanya nama resmi yang terdapat pada masjid itu sehingga masjid tersebut diberi nama masjid Lama Gang Bengkok.
+                        Pendiri masjid Gang Bengkok adalah Sultan Deli yang juga tidak memberikan nama resmi terhadap masjid tersebut sehingga masyarakat sekitar menamainya dengan Masjid Lama Gang Bengkok
+                    </p>
+                    <div class="text-putih text-3xl pt-4 flex items-center justify-around">
+                        <button id="before1"><i class="fa-regular fa-circle-left"></i></button>
+                        <h3>1</h3>
+                        <button id="after1"><i class="fa-regular fa-circle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-2 hiddenn">
+                <div class="px-10 py-6">
+                    <h1 class="text-3xl text-putih"><i class="fa-solid fa-book-open mr-2"></i>Sejarah Masjid Lama Gang Bengkok</h1>
+                    <p class="text-putih pt-4">Masjid Lama Gang Bengkok memiliki sentuhan kental dari budaya Tionghoa dan Melayu. Perpaduan dari sentuhan tersebut menghasilkan sebuah bangunan masjid yang unik. 
+                        Dilihat dari arsitekturnya, masjid ini tidak seperti sebuah bangunan masjid pada umumnya, melainkan seperti sebuah Klenteng. 
+                        Namun, ketika masuk ke dalam masjid maka akan terlihat jelas serta akan sangat terasa suasana masjid yang begitu kental. 
+                        Bangunan seperti Klenteng tersebut tak heran dkarenakan pembangunannya sendiri diprakasai oleh seorang tokoh Medan dari etnis Tionghoa, Tjong A Fie. Walaupun demikian, Masjid Lama Gang Bengkok tetap memiliki sentuhan Melayu dan Islam.
+                    </p>
+                    <p class="text-putih pt-3">Sentuhan dari gaya Melayu dapat ditemukan pada bagian plafon masjid yang terdapat hiasan juga disebut dengan "Lebah bergantung".
+                        Hiasan tersebut dibuat dari kayu menghasilkan ukiran yang sangat unik dan mempesona sehingga menghasilkan semacam tirai dengan warna kuning. Warna kuning sendiri merupakan warna khas dari Melayu. 
+                        Kemudian pada bagian gapura masjid Lama Gang Bengkok mendapatkan sentuhan dari gaya Islam Persia.[2]
+                    </p>
+                    <div class="text-putih text-3xl pt-4 flex items-center justify-around">
+                        <button id="before2"><i class="fa-regular fa-circle-left"></i></button>
+                        <h3>2</h3>
+                        <button id="after2"><i class="fa-regular fa-circle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-3 hiddenn">
+                <div class="px-10 py-6">
+                    <h1 class="text-3xl text-putih"><i class="fa-solid fa-book-open mr-2"></i>Sejarah Masjid Lama Gang Begkok</h1>
+                    <p class="text-putih pt-4 ">
+                        Selesai...
+                    </p>
+                    <div class="text-putih text-3xl pt-4 flex items-center justify-around">
+                        <button id="before3"><i class="fa-regular fa-circle-left"></i></button>
+                        <h3>3</h3>
+                        <button id="after3"><i class="fa-regular fa-circle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center pt-3">
+            <a href="../index.html">
+                <button class="btn-beranda text-xl bg-hitam-ungu text-putih px-5 py-2 rounded-full">Beranda</button>
+            </a>
+        </div>
+    </section>
+
+<script src="https://kit.fontawesome.com/64503a7986.js" crossorigin="anonymous"></script>
+    
+<script>
+let currentText = 1;
+
+function showText(textNumber) {
+    // Check if user is trying to go back from text-1
+    if (currentText === 1 && textNumber < 1) {
+        return;
+    }
+
+    document.querySelector(`.text-${currentText}`).classList.add('hiddenn');
+    document.querySelector(`.text-${textNumber}`).classList.remove('hiddenn');
+    currentText = textNumber;
+
+    // Disable/enable buttons based on current text
+    document.getElementById(`before${currentText}`).disabled = false;
+    document.getElementById(`after${currentText}`).disabled = false;
+
+    if (currentText === 1) {
+        document.getElementById(`before${currentText}`).disabled = true;
+    } else if (currentText === 3) {
+        document.getElementById(`after${currentText}`).disabled = true;
+    }
+}
+
+function handleKeyPress(event) {
+    if (event.key === 'ArrowLeft') {
+        if (currentText > 1) {
+            showText(currentText - 1);
+        }
+    } else if (event.key === 'ArrowRight') {
+        if (currentText < 3) {
+            showText(currentText + 1);
+        }
+    }
+}
+
+document.getElementById('before1').addEventListener('click', () => showText(currentText - 1));
+document.getElementById('after1').addEventListener('click', () => showText(currentText + 1));
+document.getElementById('before2').addEventListener('click', () => showText(currentText - 1));
+document.getElementById('after2').addEventListener('click', () => showText(currentText + 1));
+document.getElementById('before3').addEventListener('click', () => showText(currentText - 1));
+document.getElementById('after3').addEventListener('click', () => showText(currentText + 1));
+
+document.addEventListener('keydown', handleKeyPress);
+</script>
+</body>
+</html>
